@@ -9,4 +9,4 @@ import java.time.LocalDate;
 public class BranchHoliday {
     private LocalDate date;
     private String name;
-} 
+}

@@ -12,6 +12,6 @@ public class NotFoundException extends Exception {
 
     @Override
     public String getMessage() {
-        return "No se encontro ninguna coincidencia para: "+this.entity+", con el dato:"+data;
+        return "No se encontro ninguna coincidencia para: " + this.entity + ", con el dato:" + data;
     }
 }

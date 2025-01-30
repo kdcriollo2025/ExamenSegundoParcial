@@ -14,12 +14,12 @@ public class DB {
 
     static {
         SegundoParcial sp = new SegundoParcial();
-        sp.setId("1");
+        sp.setId("string");
         sp.setEmailAdress("string");
         sp.setName("string");
         sp.setPhoneNumber("string");
         sp.setState("string");
-        sp.setCreationDate(LocalDate.parse("2016-09-01"));
+        sp.setCreationDate(LocalDate.parse("2016-09-06"));
         sp.setLastModifiedDate(LocalDateTime.parse("2016-09-06T13:00:00"));
         
         BranchHoliday holiday = new BranchHoliday();
